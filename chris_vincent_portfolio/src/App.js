@@ -1,10 +1,19 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <div className="App">
+    <Router>
+      <Navbar />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,6 +28,7 @@ function App() {
           Learn React
         </a>
       </header>
+    </Router>
     </div>
   );
 }
