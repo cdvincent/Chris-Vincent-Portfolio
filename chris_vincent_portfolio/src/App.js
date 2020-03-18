@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -7,30 +7,39 @@ import {
 } from "react-router-dom";
 import logo from './logo.svg';
 import './App.css';
+import Home from "./pages/Home";
+import About from "./pages/About/About";
+import Contact from "./pages/Contact/Contact";
+import Projects from "./pages/Projects/Projects";
+
 import Navbar from "./components/Navbar/Navbar";
 
-function App() {
-  return (
-    <div className="App">
-    <Router>
-      <Navbar />
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </Router>
-    </div>
-  );
-}
+class App extends Component {
+
+  state = {
+    currentPage: "home"
+  };
+
+  render() {
+    return (
+      <Router>
+        <Switch>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
+          <Route exact path="/projects">
+            <Projects />
+          </Route>
+          <Route path="*">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    );
+  }
+};
 
 export default App;
