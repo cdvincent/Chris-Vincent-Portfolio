@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-
+import Navbar from "../../components/Navbar/Navbar";
 class About extends Component {
     state = {
 
@@ -8,7 +8,10 @@ class About extends Component {
     render() {
         return (
             <div>
-                <h3>About</h3>
+                <Navbar />
+                <div className="container">
+                    <h3>About</h3>
+                </div>
             </div>
         )
     };
