@@ -1,15 +1,36 @@
 .navigation li {
     display: inline-block;
-    font-size: 14px;
-    margin: 5px 15px 0;
+    font-size: 22px;
+    margin: 5px 55px 0;
+    color: #282c34;
+}
+
+.navigation {
+    background-color: #282c34;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.link {
+    color: rgb(255, 255, 255);
 }
 
 header {
     font-size: 18px;
-    text-align: center;
+    text-align: left;
+    color: white;
 }
 
 ul {
     text-align: center;
     margin: 0 auto;
+}
+
+.HLine {
+    background-color: salmon;
+    height: 5px;
 }

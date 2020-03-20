@@ -5,29 +5,26 @@ import "./style.css";
 function Navbar () {
     return (
         <div className="wrapper">
-            <nav className="navigation">
-                <header>
-                    My Portfolio
-                </header>
-                <div className="links">
-                    <ul className="list-unstyled components">
+            <nav className="navigation sticky">
+                <h4>Chris Vincent</h4>
+                    <ul className="links list-unstyled components">
                         <li className="active">
-                            <Link to="/about">
+                            <Link className="link" to="/about">
                                 About Me
                             </Link>
                         </li>
                         <li>
-                            <Link to="projects">
+                            <Link className="link" to="/projects">
                                 My Projects
                             </Link>
                         </li>
                         <li>
-                            <Link to="contact">
+                            <Link className="link" to="/contact">
                                 Contact Me
                             </Link>
                         </li>
                     </ul>
-                </div>
+                    <div className="HLine"> </div>
             </nav>
         </div>
     )
