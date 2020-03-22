@@ -47,3 +47,30 @@
 body {
   background-color: rgb(226, 214, 214);
 }
+
+
+.nav {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  background: #1b242f;
+  border-bottom: 3px solid #04c2c9;
+  height: 50px;
+  text-align: left;
+  width: 100%;
+  z-index: 99;
+  margin-top: 100vh;
+}
+
+.sticky {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  background: #1b242f;
+  border-bottom: 3px solid #04c2c9;
+  height: 50px;
+  text-align: left;
+  width: 100%;
+  z-index: 99;
+  margin-top: 100vh;
+}

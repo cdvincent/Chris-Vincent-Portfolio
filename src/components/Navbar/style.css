@@ -4,35 +4,7 @@ li {
     color: #282c34;
 }
 
-.navigation {
-    background-color: #282c34;
-    display: inline-block;
-    overflow: hidden;
-}
 
 .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-
-.link {
-    color: rgb(255, 255, 255);
-}
-
-header {
-    display: flex;
-    font-size: 18px;
-    text-align: left;
-    color: white;
-}
-
-ul {
-    text-align: center;
-    margin: 0 50%;
-}
-
-.HLine {
-    background-color: salmon;
-    height: 5px;
+    font-size: 200px;
 }
