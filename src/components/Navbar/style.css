@@ -1,12 +1,13 @@
-.navigation li {
-    display: inline-block;
-    font-size: 22px;
-    margin: 5px 55px 0;
+li {
+    font-size: 18px;
+    margin: 5px 45px 0;
     color: #282c34;
 }
 
 .navigation {
     background-color: #282c34;
+    display: inline-block;
+    overflow: hidden;
 }
 
 .sticky {
@@ -20,6 +21,7 @@
 }
 
 header {
+    display: flex;
     font-size: 18px;
     text-align: left;
     color: white;
@@ -27,7 +29,7 @@ header {
 
 ul {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 50%;
 }
 
 .HLine {

@@ -1,31 +1,28 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "./style.css";
 
 function Navbar () {
     return (
         <div className="wrapper">
-            <nav className="navigation sticky">
-                <h4>Chris Vincent</h4>
-                    <ul className="links list-unstyled components">
-                        <li className="active">
-                            <Link className="link" to="/about">
-                                About Me
-                            </Link>
-                        </li>
-                        <li>
-                            <Link className="link" to="/projects">
-                                My Projects
-                            </Link>
-                        </li>
-                        <li>
-                            <Link className="link" to="/contact">
-                                Contact Me
-                            </Link>
-                        </li>
-                    </ul>
-                    <div className="HLine"> </div>
-            </nav>
+<nav className="navbar navbar-expand-lg flex-md-row navbar-dark bg-dark sticky">
+  <a className="navbar-brand" href="/">Chris Vincent</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  <div className="collapse navbar-collapse" id="navbarNav">
+    <ul className="navbar-nav">
+      <li className="nav-item active">
+        <a className="nav-link" href="About">About <span className="sr-only">(current)</span></a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="Projects">Projects</a>
+      </li>
+      <li className="nav-item">
+        <a className="nav-link" href="Contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
         </div>
     )
 }
