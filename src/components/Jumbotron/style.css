@@ -2,7 +2,7 @@
     background-image: url("./image0.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 95vh;
     color: whitesmoke;
 }
 
@@ -10,12 +10,14 @@
     margin-top: 20px;
     margin-left: 70px;
     font-weight: 400;
+    font-family: 'Sen', sans-serif;
 }
 
 .jumbotron p {
-    margin-top: 20px;
-    margin-left: 120px;
+    margin-left: 100px;
     font-weight: 400;
+    font-size: 23px;
+    font-family: 'Sen', sans-serif;
 }
 
 .header {

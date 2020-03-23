@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
+
 class About extends Component {
     state = {
 
@@ -7,10 +8,10 @@ class About extends Component {
 
     render() {
         return (
-            <div>
-                <Navbar />
+            <div className="page">
+                <Navbar className="navbar-expand-lg flex-md-row navbar-dark bg-dark nav"/>
+                    <h3 className="pageHead">About</h3>
                 <div className="container">
-                    <h3>About</h3>
                 </div>
             </div>
         )
