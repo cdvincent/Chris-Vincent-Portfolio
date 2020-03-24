@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
+import AllProjects from "../../components/AllProjects/AllProjects";
+import ProjectsSwitch from "../../components/ProjectsSwitch/ProjectsSwitch";
 
 class Projects extends Component {
     state = {
@@ -13,15 +15,10 @@ class Projects extends Component {
                     <h3 className="pageHead">My Projects</h3>
                     <div className="hr"></div>
                     <div className="container">
-                    {this.state.showFullStack ? (
-                        <div>
-                            fullstack project
+                        <div className="content">
+                            <ProjectsSwitch />
+                            <AllProjects />
                         </div>
-                    ) : (
-                        <div>
-                            
-                        </div>
-                    )}
                 </div>
             </div>
         )
