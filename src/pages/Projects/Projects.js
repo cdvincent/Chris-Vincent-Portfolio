@@ -11,6 +11,7 @@ class Projects extends Component {
             <div className="page">
                 <Navbar className="navbar-expand-lg flex-md-row navbar-dark bg-dark nav"/>
                     <h3 className="pageHead">My Projects</h3>
+                    <div className="hr"></div>
                     <div className="container">
                     {this.state.showFullStack ? (
                         <div>

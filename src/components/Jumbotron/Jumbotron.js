@@ -6,9 +6,10 @@ function Jumbotron () {
         <div className="jumbotron">
             <div className="header">
                 <h3 className="display-4">Chris Vincent</h3>
-                <hr className="my-4"/>
+                <div className="hr"></div>
                 <p className="lead">Full-Stack Web Developer</p>
             </div>
+            <a className="link" href="/projects">- click to view my projects -</a>
         </div>
     )
 }
