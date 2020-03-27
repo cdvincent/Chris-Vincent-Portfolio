@@ -55,6 +55,16 @@ img:hover {
   opacity: .8;
 }
 
+.images {
+  margin: 20px;
+  margin-left: 60px;
+  width: 90%;
+}
+
+.projectImg {
+  float: left;
+}
+
 .page {
   max-height: 100vh;
 }
