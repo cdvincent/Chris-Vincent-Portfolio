@@ -1,12 +1,54 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import AllProjects from "../../components/AllProjects/AllProjects";
 import ProjectsSwitch from "../../components/ProjectsSwitch/ProjectsSwitch";
+import AllProjects from "../../components/AllProjects/AllProjects";
+import FrontEndProjects from "../../components/FrontEndProjects/FrontEndProjects";
+import BackEndProjects from "../../components/BackEndProjects/BackEndProjects";
+import ReactProjects from "../../components/ReactProjects/ReactProjects";
 
 class Projects extends Component {
     state = {
-        showFullStack: false
+        showAll: true,
+        showFrontEnd: false,
+        showBackEnd: false,
+        showReact: false
     };
+
+    showAll = () => {
+        this.setState({
+            showAll: true,
+            showFrontEnd: false,
+            showBackEnd: false,
+            showReact: false
+        })
+    }
+
+    showFrontEnd = () => {
+        this.setState({
+            showAll: false,
+            showFrontEnd: true,
+            showBackEnd: false,
+            showReact: false
+        })
+    }
+
+    showBackEnd = () => {
+        this.setState({
+            showAll: false,
+            showFrontEnd: false,
+            showBackEnd: true,
+            showReact: false
+        })
+    }
+
+    showReact = () => {
+        this.setState({
+            showAll: false,
+            showFrontEnd: false,
+            showBackEnd: false,
+            showReact: true
+        })
+    }
 
     render() {
         return (
@@ -16,8 +58,33 @@ class Projects extends Component {
                     <div className="hr"></div>
                     <div className="container">
                         <div className="content">
-                            <ProjectsSwitch />
+
+                            <ProjectsSwitch showAll={this.showAll} showFrontEnd={this.showFrontEnd} showBackEnd={this.showBackEnd} showReact={this.showReact} />
+
+                            {this.state.showAll ? (
                             <AllProjects />
+                            ) : ( 
+                            <div></div>
+                            )}
+
+                            {this.state.showFrontEnd ? (
+                            <FrontEndProjects />
+                            ) : ( 
+                            <div></div>
+                            )}
+
+                            {this.state.showBackEnd ? (
+                            <BackEndProjects />
+                            ) : ( 
+                            <div></div>
+                            )}
+
+                            {this.state.showReact ? (
+                            <ReactProjects />
+                            ) : ( 
+                            <div></div>
+                            )}
+
                         </div>
                 </div>
             </div>

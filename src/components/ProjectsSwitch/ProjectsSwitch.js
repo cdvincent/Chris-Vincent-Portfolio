@@ -1,13 +1,13 @@
 import React from "react";
 import "./style.css";
 
-function ProjectsSwitch () {
+function ProjectsSwitch (props) {
     return (
         <div className="projectsSwitch">
-            <button className="btn btn-secondary projectBtn">All</button>
-            <button className="btn btn-secondary projectBtn">Front-End</button>
-            <button className="btn btn-secondary projectBtn">Back-End</button>
-            <button className="btn btn-secondary projectBtn">Full-Stack</button>
+            <button onClick={props.showAll} className="btn btn-secondary projectBtn">All</button>
+            <button onClick={props.showFrontEnd} className="btn btn-secondary projectBtn">Front-End</button>
+            <button onClick={props.showBackEnd} className="btn btn-secondary projectBtn">Back-End</button>
+            <button onClick={props.showReact} className="btn btn-secondary projectBtn">React</button>
         </div>
     );
 }

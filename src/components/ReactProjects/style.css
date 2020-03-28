@@ -1,0 +1,14 @@
+.projectsSwitch {
+    margin-top: 20px;
+}
+
+.projectBtn {
+    margin-left: 0px;
+    width: 200px;
+    height: 40px;
+    border-radius: 1px;
+}
+
+.projectBtn:hover {
+    transform: scale(1.1);
+}
