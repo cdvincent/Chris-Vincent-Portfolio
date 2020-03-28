@@ -43,28 +43,6 @@ p {
   text-align: left;
 }
 
-img {
-  width: 150px;
-  height: 100px;
-  border-radius: 2px;
-  margin: 0 10px 10px;
-}
-
-img:hover {
-  transform: scale(1.5);
-  opacity: .8;
-}
-
-.images {
-  margin: 20px;
-  margin-left: 60px;
-  width: 90%;
-}
-
-.projectImg {
-  float: left;
-}
-
 .page {
   max-height: 100vh;
 }
@@ -74,7 +52,7 @@ img:hover {
   font-size: 50px;
   text-align: center;
   margin-top: 20px;
-  width:50%;
+  width: 50%;
   margin-left: 25%;
 }
 

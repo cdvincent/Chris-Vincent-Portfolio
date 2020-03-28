@@ -1,47 +1,24 @@
 import React from "react";
+import ProjectImg from "../ProjectImg/ProjectImg"
+import "./style.css";
 
 function AllProjects () {
     return (
         <div className="images">
-            <div>
-                <img className="projectImg" src={require("./abc.png")} alt="Guess the letter"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./burger.jpg")} alt="Burger App"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./catGif.gif")} alt="Gif Me Some Gifs!"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./friends.jpg")} alt="Friend Finder"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./greenRupee.png")} alt="Rupee Game"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./hungarray2.png")} alt="Hungarray"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./liri.png")} alt="Ask LIRI"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./manager.png")} alt="Bamazon"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./ow.jpg")} alt="Match The Heroes"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./scraping.jpg")} alt="Web Scraper"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./stout-beer.jpg")} alt="BrewFinder"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./traintime.jpg")} alt="Train Time"/>
-            </div>
-            <div>
-                <img className="projectImg" src={require("./trivia.jpg")} alt="Pokemon Trivia"/>
-            </div>
+            <ProjectImg src={require("./abc.png")} alt="Guess the letter game" text="Guess the letter" />
+            <ProjectImg src={require("./burger.jpg")} alt="Burger app" text="Eat-Da-Burger" />
+            <ProjectImg src={require("./catGif.gif")} alt="Gifphy project" text="Gif Me Some Gifs!" />
+            <ProjectImg src={require("./friends.jpg")} alt="FriendFinder app" text="FriendFinder" />
+            <ProjectImg src={require("./greenRupee.png")} alt="Number Game" text="Rupee Game" />
+            <ProjectImg src={require("./hungarray2.png")} alt="Restaurant app" text="HungArray" />
+            <ProjectImg src={require("./liri.png")} alt="Ask LIRI" text="Ask LIRI" />
+            <ProjectImg src={require("./logo.jpg")} alt="Destination:Budget" text="Destination:Budget" />
+            <ProjectImg src={require("./manager.png")} alt="Storefront Command Line Interface" text="Bamazon" />
+            <ProjectImg src={require("./ow.jpg")} alt="Memory Game" text="Overwatch Assemble!" />
+            <ProjectImg src={require("./scraping.jpg")} alt="Web Scraping Application" text="Web Scraper" />
+            <ProjectImg src={require("./stout-beer.jpg")} alt="Brewery finding app" text="BrewFinder" />
+            <ProjectImg src={require("./traintime.jpg")} alt="Train scheduling app" text="Train Time" />
+            <ProjectImg src={require("./trivia.jpg")} alt="Pokemon trivia game" text="Pokemon Trivia" />
         </div>
     );
 }
