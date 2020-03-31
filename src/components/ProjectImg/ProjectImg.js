@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "react-router-dom";
 
 function ProjectImg (props) {
     return (
@@ -6,7 +7,7 @@ function ProjectImg (props) {
             <img className="projectImg" src={props.src} alt={props.alt}/>
             <div className="overlay">
                 <div className="text">{props.text}</div>
-                <button className="btn btn-secondary learnMore">View Project</button>
+                <a className="btn btn-secondary learnMore" href={props.url} rel="noopener" target="_blank">View Project</a>
             </div>
         </div>
     )

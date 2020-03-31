@@ -1,6 +1,5 @@
 import React from "react";
 import ProjectImg from "../ProjectImg/ProjectImg"
-import "./style.css";
 
 function ReactProjects () {
     return (
