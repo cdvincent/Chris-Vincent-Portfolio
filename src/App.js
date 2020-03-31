@@ -12,10 +12,6 @@ import Projects from "./pages/Projects/Projects";
 
 class App extends Component {
 
-  state = {
-    currentPage: "home"
-  };
-
   render() {
     return (
       <Router>

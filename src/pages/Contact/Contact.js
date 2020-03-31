@@ -3,9 +3,6 @@ import Navbar from "../../components/Navbar/Navbar";
 import Icons from "../../components/Icons/Icons";
 
 class Contact extends Component {
-    state = {
-
-    };
 
     render() {
         return (
