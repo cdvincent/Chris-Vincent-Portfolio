@@ -5,6 +5,19 @@ import AllProjects from "../../components/AllProjects/AllProjects";
 import FrontEndProjects from "../../components/FrontEndProjects/FrontEndProjects";
 import BackEndProjects from "../../components/BackEndProjects/BackEndProjects";
 import ReactProjects from "../../components/ReactProjects/ReactProjects";
+import { motion } from "framer-motion";
+
+const pageVariants = {
+    initial: {
+      opacity: 0,
+    },
+    in: {
+      opacity: 1,
+    },
+    out: {
+      opacity: 0,
+    }
+  };
 
 class Projects extends Component {
     state = {
@@ -52,7 +65,7 @@ class Projects extends Component {
 
     render() {
         return (
-            <div className="page">
+            <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                 <Navbar className="navbar-expand-lg flex-md-row navbar-dark bg-dark nav"/>
                     <h3 className="pageHead">My Projects</h3>
                     <div className="hr"></div>
@@ -87,7 +100,7 @@ class Projects extends Component {
 
                         </div>
                 </div>
-            </div>
+            </motion.div>
         )
     };
 };

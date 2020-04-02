@@ -39,8 +39,27 @@ body {
 
 p {
   padding: 30px 50px 0;
-  font-size: 15px;
+  font-size: 18px;
   text-align: left;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
 
 .page {
@@ -69,7 +88,9 @@ p {
   margin-top: 100px;
 }
 
-.contactContent {
-  margin-top: 7%;
-  height: 300px;
+.contactMe {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 3%;
 }

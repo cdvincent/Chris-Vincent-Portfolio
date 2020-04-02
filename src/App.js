@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { AnimatePresence } from "framer-motion";
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,20 +16,14 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Switch>
-          <Route exact path="/about">
-            <About />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-          <Route exact path="/projects">
-            <Projects />
-          </Route>
-          <Route path="*">
-            <Home />
-          </Route>
-        </Switch>
+        <AnimatePresence>
+          <Switch>
+            <Route exact path="/about" component={About} />
+            <Route exact path="/contact" component={Contact} />
+            <Route exact path="/projects" component={Projects} />
+            <Route path="*" component={Home} />
+          </Switch>
+        </AnimatePresence>          
       </Router>
     );
   }

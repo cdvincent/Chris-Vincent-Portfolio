@@ -1,5 +1,18 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
+import { motion } from "framer-motion";
+
+const pageVariants = {
+    initial: {
+      opacity: 0,
+    },
+    in: {
+      opacity: 1,
+    },
+    out: {
+      opacity: 0,
+    }
+  };
 
 class About extends Component {
     state = {
@@ -8,7 +21,7 @@ class About extends Component {
 
     render() {
         return (
-            <div className="page">
+            <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                 <Navbar className="navbar-expand-lg flex-md-row navbar-dark bg-dark nav"/>
                     <h3 className="pageHead">About Me</h3>
                     <div className="hr"></div>
@@ -19,7 +32,7 @@ class About extends Component {
                         <p>As a problem-solver by nature, I enjoy the task of creating new applications and troubleshooting along the way. I'm eager to use my new skills in a quality company that will offer me an environment that will allow me to learn and grow in order to improve myself as a developer.</p>
                     </div>
                 </div>
-            </div>
+            </motion.div>
         )
     };
 };
