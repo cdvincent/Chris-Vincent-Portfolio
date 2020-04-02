@@ -22,7 +22,9 @@ class About extends Component {
     render() {
         return (
             <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
-                <Navbar className="navbar-expand-lg flex-md-row navbar-dark bg-dark nav"/>
+                <Navbar 
+                homeClass="nav-link" aboutClass="nav-link active" projectsClass="nav-link"
+                contactClass="nav-link"/>
                     <h3 className="pageHead">About Me</h3>
                     <div className="hr"></div>
                 <div className="container">

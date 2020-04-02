@@ -20,7 +20,9 @@ class Contact extends Component {
     render() {
         return (
             <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
-                <Navbar className="navbar-expand-lg flex-md-row navbar-dark bg-dark nav"/>
+                <Navbar 
+                homeClass="nav-link" aboutClass="nav-link" projectsClass="nav-link"
+                contactClass="nav-link active"/>
                     <h3 className="pageHead">Contact Me</h3>
                     <div className="hr"></div>
                     <p className="contactMe">Please contact me if you would like to work together!</p>

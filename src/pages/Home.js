@@ -22,7 +22,9 @@ class Home extends Component {
             <motion.div className="page"  initial="initial" animate="in" exit="out" variants={pageVariants}>
                 <Jumbotron>
                 </Jumbotron>
-                <Navbar/>
+                <Navbar 
+                homeClass="nav-link active" aboutClass="nav-link" projectsClass="nav-link"
+                contactClass="nav-link"/>
             </motion.div>
         )
     };
