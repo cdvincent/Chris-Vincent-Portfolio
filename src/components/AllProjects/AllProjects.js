@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectImg from "../ProjectImg/ProjectImg"
+import ProjectImg from "../ProjectImg/ProjectImg";
 
 function AllProjects () {
     return (

@@ -4,7 +4,7 @@
     position: absolute;
     background: #1b242f;
     border-bottom: 4px solid #04c2c9;
-    height: 75px;
+    height: 65px;
     text-align: left;
     width: 100%;
     z-index: 99;
@@ -14,7 +14,7 @@
   
   li {
     font-size: 18px;
-    margin: 5px 45px 0;
+    margin: 12px 45px 0;
     color: #282c34;
     font-family: 'Sen', sans-serif;
     line-height: 20px;
