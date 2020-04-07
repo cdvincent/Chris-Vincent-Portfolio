@@ -13,7 +13,7 @@ function FrontEndProjects () {
             <ProjectImg src={require("./logo.jpg")} alt="Destination:Budget" text="Destination:Budget" url="https://github.com/cdvincent/Destination-Budget" />
             <ProjectImg src={require("./ow.jpg")} alt="Memory Game" text="Overwatch Assemble!" url="https://github.com/cdvincent/Overwatch-Assemble" />
             <ProjectImg src={require("./scraping.jpg")} alt="Web Scraping Application" text="Web Scraper" url="https://github.com/cdvincent/Web-Scrapin" />
-            <ProjectImg src={require("./stout-beer.jpg")} alt="Brewery finding app" text="BrewFinder" url="https://github.com/cdvincent/BrewFinder" />
+            <ProjectImg src={require("./stout-beer.jpg")} alt="Brewery finding app" text="BrewFinder" url="https://github.com/cdvincent/Brew-Finder" />
             <ProjectImg src={require("./traintime.jpg")} alt="Train scheduling app" text="Train Time" url="https://github.com/cdvincent/Train-Time" />
             <ProjectImg src={require("./trivia.jpg")} alt="Pokemon trivia game" text="Pokemon Trivia" url="https://github.com/cdvincent/TriviaGame" />
         </div>
