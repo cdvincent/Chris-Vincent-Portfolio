@@ -33,3 +33,75 @@ li:hover a {
 .sticky {
     font-size: 200px;
 }
+
+@media screen and (max-width: 680px) {
+    
+    ul {
+        display: inline-block!important;
+    }
+    li {
+        float: left;
+        margin: 12px 20px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    
+    ul {
+        display: inline-block!important;
+    }
+    li {
+        float: left;
+        margin: 12px 20px 0;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+    ul {
+        display: inline-block!important;
+    }
+
+    li {
+        float: left;
+        font-size: 16px;
+        margin: 12px 15px 0;
+        text-align: center;
+    }
+
+    li:hover a {
+        font-size: 18px;
+        color: rgb(170, 24, 24)!important;
+        margin-right: -5.5px;
+    }
+
+    .projects:hover a {
+        margin-right: -8px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    li {
+        font-size: 7px;
+        line-height: 10px;
+    }
+
+    li:hover a {
+        font-size: 10px;
+        color: rgb(170, 24, 24)!important;
+        margin-right: -14px;
+    }
+
+    .projects:hover a {
+        margin-right: -19px;
+    }
+}
+
+@media screen and (max-width: 275px) {
+    li {
+        font-size: 5px;
+        line-height: 10px;
+    }
+}

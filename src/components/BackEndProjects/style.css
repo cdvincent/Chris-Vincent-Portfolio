@@ -6,6 +6,10 @@ img {
     margin: 0 7px 10px;
   }
 
+  .aboutMe {
+    overflow: auto;
+  }
+
  .images {
     margin: 20px;
     margin-left: 60px;
@@ -32,7 +36,7 @@ img {
     color: white;
     font-size: 20px;
     position: relative;
-    top:20%;
+    top: 20%;
     left: 48%;
     width: 150px;
     height: 20px;
@@ -51,3 +55,136 @@ img {
   .projectImg {
     float: left;
   }
+
+  
+@media screen and (max-width: 995px) {
+  .images {
+    margin-left: 70px;
+}
+}
+
+@media screen and (max-width: 770px) {
+  img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .images {
+    margin-left: 60px;
+}
+
+  .overlay {
+    margin: 0 -157px 10px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .learnMore {
+    position: relative;
+    top: 30px;
+    left: 12%;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    width: 200px;
+    height: 150px;
+  }
+
+  .images {
+    margin: 10px;
+    padding-left: 50px;
+  }
+
+  .overlay {
+    position: relative;
+    margin: 0 -207px 10px;
+    width: 200px;
+    height: 150px;
+  }
+
+  .text {
+    font-size: 20px;
+  }
+
+  .learnMore {
+    position: relative;
+    top: 60px;
+    left:20%;
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    width: 150px;
+    height: 100px;
+  }
+
+  .images {
+    margin-left: -15px;
+}
+
+  .overlay {
+    margin: 0 -157px 10px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+
+  .learnMore {
+    position: relative;
+    top: 30px;
+    left: 12%;
+    width: 100px;
+    height: 30px;
+    font-size: 12px;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  img {
+    width: 75px;
+    height: 50px;
+  }
+
+    .images {
+      margin-left: 0px;
+      padding-left: 20px;
+  }
+
+  .overlay {
+    margin: 0 -82px 10px;
+    width: 75px;
+    height: 50px;
+  }
+
+  .text {
+    font-size: 7px;
+  }
+
+  .learnMore {
+    position: relative;
+    top: -20px;
+    left: 0;
+    width: 75px;
+    height: 50px;
+    font-size: 7px;
+    opacity: 0;
+  }
+}

@@ -94,3 +94,37 @@ p {
   font-weight: bold;
   margin-top: 3%;
 }
+
+@media screen and (max-width: 550px) {
+  .content {
+    height: 500px;
+    margin-top: 10%;
+  }
+
+  .pageHead {
+    font-size: 30px;
+    margin-top: 20px;
+    width: 50%;
+    margin-left: 25%;
+  }
+
+  p {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .content {
+    height: 550px;
+  }
+
+  .pageHead {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 245px) {
+  .content {
+    height: 450px;
+  }
+}

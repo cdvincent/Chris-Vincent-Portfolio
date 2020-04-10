@@ -7,3 +7,31 @@
     width: 200px;
     height: 200px;
 }
+
+@media screen and (max-width: 770px) {
+    .socials {
+        width: 175px;
+        height:175px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .socials {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 365px) {
+    .socials {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media screen and (max-width: 240px) {
+    .socials {
+        width: 60px;
+        height: 60px;
+    }
+}

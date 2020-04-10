@@ -4,7 +4,7 @@ import "./style.css";
 function Navbar (props) {
     return (
         <div className="wrapper">
-            <nav className="navbar-expand-sm navbar-dark bg-dark nav">
+            <nav className="navbar navbar-expand-sm navbar-dark bg-dark nav">
             <div>
                 <ul className="navbar-nav">
                 <li className="nav-item">

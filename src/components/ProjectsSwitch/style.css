@@ -7,8 +7,40 @@
     width: 200px;
     height: 40px;
     border-radius: 1px;
+    border-style: solid;
+    border-color: #333;
+    
 }
 
 .projectBtn:hover {
     transform: scale(1.1);
+}
+
+
+@media screen and (max-width: 995px) {
+    .projectBtn {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .projectsSwitch {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .projectBtn {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .projectsSwitch {
+        margin-left: 15%;
+    }
+
+    .projectBtn {
+        font-size: 12px;
+    }
 }
