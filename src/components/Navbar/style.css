@@ -1,7 +1,7 @@
 .nav {
     bottom: 0;
     left: 0;
-    position: absolute;
+    position: fixed;
     background: #1b242f;
     border-bottom: 4px solid #04c2c9;
     height: 65px;

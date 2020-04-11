@@ -21,7 +21,7 @@ class About extends Component {
 
     render() {
         return (
-          <div>
+          <div className="wrapper">
             <Navbar 
             homeClass="nav-link" aboutClass="nav-link active" projectsClass="nav-link"
             contactClass="nav-link"/>

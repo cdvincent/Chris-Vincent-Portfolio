@@ -31,6 +31,9 @@
 
 .hr {
     border-style: solid;
+    border-left: hidden;
+    border-bottom: hidden;
+    border-right: hidden;
     border-color: white;
     border-width: 1.25px;
     width: 50%;
