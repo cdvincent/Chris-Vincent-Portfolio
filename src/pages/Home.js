@@ -19,13 +19,15 @@ class Home extends Component {
 
     render() {
         return (
+          <div>
+            <Navbar 
+            homeClass="nav-link active" aboutClass="nav-link" projectsClass="nav-link"
+            contactClass="nav-link"/>
             <motion.div className="page"  initial="initial" animate="in" exit="out" variants={pageVariants}>
                 <Jumbotron>
                 </Jumbotron>
-                <Navbar 
-                homeClass="nav-link active" aboutClass="nav-link" projectsClass="nav-link"
-                contactClass="nav-link"/>
             </motion.div>
+          </div>
         )
     };
 };

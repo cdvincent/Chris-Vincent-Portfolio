@@ -65,10 +65,11 @@ class Projects extends Component {
 
     render() {
         return (
+            <div>
+            <Navbar 
+            homeClass="nav-link" aboutClass="nav-link" projectsClass="nav-link active"
+            contactClass="nav-link"/>
             <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
-                <Navbar 
-                homeClass="nav-link" aboutClass="nav-link" projectsClass="nav-link active"
-                contactClass="nav-link"/>
                     <h3 className="pageHead">My Projects</h3>
                     <div className="hr"></div>
                     <div className="container">
@@ -103,6 +104,7 @@ class Projects extends Component {
                         </div>
                 </div>
             </motion.div>
+            </div>
         )
     };
 };
