@@ -61,101 +61,7 @@ img {
 @media screen and (max-width: 995px) {
   .images {
     margin-left: 70px;
-}
-}
-
-@media screen and (max-width: 770px) {
-  img {
-    width: 150px;
-    height: 100px;
   }
-
-  .images {
-    margin-left: 60px;
-}
-
-  .overlay {
-    margin: 0 -157px 10px;
-    width: 150px;
-    height: 100px;
-  }
-
-  .text {
-    font-size: 14px;
-  }
-
-  .learnMore {
-    position: relative;
-    top: 30px;
-    left: 12%;
-    width: 100px;
-    height: 30px;
-    font-size: 12px;
-  }
-
-}
-
-@media screen and (max-width: 550px) {
-  img {
-    width: 200px;
-    height: 150px;
-  }
-
-  .images {
-    margin: 10px;
-    padding-left: 50px;
-  }
-
-  .overlay {
-    position: relative;
-    margin: 0 -207px 10px;
-    width: 200px;
-    height: 150px;
-  }
-
-  .text {
-    font-size: 20px;
-  }
-
-  .learnMore {
-    position: relative;
-    top: 60px;
-    left:20%;
-    width: 125px;
-    height: 40px;
-    font-size: 14px;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  img {
-    width: 150px;
-    height: 100px;
-  }
-
-  .images {
-    margin-left: -15px;
-}
-
-  .overlay {
-    margin: 0 -157px 10px;
-    width: 150px;
-    height: 100px;
-  }
-
-  .text {
-    font-size: 14px;
-  }
-
-  .learnMore {
-    position: relative;
-    top: 30px;
-    left: 12%;
-    width: 100px;
-    height: 30px;
-    font-size: 12px;
-  }
-
 }
 
 @media screen and (max-width: 550px) {
@@ -164,9 +70,9 @@ img {
     height: 50px;
   }
 
-    .images {
-      margin-left: 0px;
-      padding-left: 20px;
+  .images {
+    margin-left: 0px;
+    padding-left: 15px;
   }
 
   .overlay {
