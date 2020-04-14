@@ -25,7 +25,7 @@ class Contact extends Component {
             contactClass="nav-link active"/>
             <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                     <h3 className="pageHead">Contact Me</h3>
-                    <div className="hr"></div>
+                    <div className="hr pageHr"></div>
                     <p className="contactMe">Please contact me if you would like to work together!</p>
                 <div className="container">
                     <Icons />

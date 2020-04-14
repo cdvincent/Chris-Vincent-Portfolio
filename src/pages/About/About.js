@@ -27,7 +27,7 @@ class About extends Component {
             contactClass="nav-link"/>
             <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                     <h3 className="pageHead">About Me</h3>
-                    <div className="hr"></div>
+                    <div className="hr pageHr"></div>
                 <div className="container">
                     <div className="content">
                       <div className="aboutMe">

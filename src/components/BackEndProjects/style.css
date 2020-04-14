@@ -6,16 +6,16 @@ img {
     margin: 0 7px 10px;
   }
 
-  .aboutMe {
-    overflow: auto;
-  }
+.aboutMe {
+  overflow: auto;
+}
 
- .images {
-    margin: 20px;
-    margin-left: 60px;
-    width: 70%;
-    height: 100%;
-    overflow: auto;
+.images {
+  margin: 20px;
+  margin-left: 60px;
+  width: 70%;
+  height: 100%;
+  overflow: auto;
 }
 
 .overlay {
@@ -33,29 +33,29 @@ img {
     opacity: .97;
 }
   
-  .text {
-    color: white;
-    font-size: 20px;
-    position: relative;
-    top: 20%;
-    left: 48%;
-    width: 150px;
-    height: 20px;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-  }
+.text {
+  color: white;
+  font-size: 20px;
+  position: relative;
+  top: 20%;
+  left: 48%;
+  width: 150px;
+  height: 20px;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-  .learnMore {
-    position: relative;
-    top: 60px;
-    left:20%;
-  }
-  
-  .projectImg {
-    float: left;
-  }
+.learnMore {
+  position: relative;
+  top: 60px;
+  left:20%;
+}
+
+.projectImg {
+  float: left;
+}
 
   
 @media screen and (max-width: 995px) {

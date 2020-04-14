@@ -71,7 +71,7 @@ class Projects extends Component {
             contactClass="nav-link"/>
             <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                     <h3 className="pageHead">My Projects</h3>
-                    <div className="hr"></div>
+                    <div className="hr pageHr"></div>
                     <div className="container">
                         <div className="content">
 

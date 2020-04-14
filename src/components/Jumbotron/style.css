@@ -73,6 +73,11 @@
         width: 210px;
     }
 
+    .pageHr {
+        margin-left: 30%;
+        width: 40%
+    }
+
     .jumbotron h3 {
         font-size: 40px;
         margin-left: 10%;
@@ -100,7 +105,10 @@
 
     .hr {
         margin-left: 15%;
-        width: 160px;
+    }
+
+    .pageHr {
+        margin-left: 30%;
     }
 
     .link {
