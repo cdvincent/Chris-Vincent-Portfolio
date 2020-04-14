@@ -18,7 +18,7 @@ function AllProjects () {
     return (
         <AnimatePresence>
             <motion.div className="images" initial="initial" animate="in" exit="out" variants={pageVariants}>
-                <ProjectImg src={require("./logo.jpg")} alt="Destination:Budget" text="Destination:Budget" url="https://github.com/cdvincent/Destination-Budget" />
+                <ProjectImg src={require("./logo.jpg")} alt="Destination:Budget" text="Destination: Budget" url="https://github.com/cdvincent/Destination-Budget" />
                 <ProjectImg src={require("./ow.jpg")} alt="Memory Game" text="Overwatch Assemble!" url="https://github.com/cdvincent/Overwatch-Assemble" />
                 <ProjectImg src={require("./hungarray2.png")} alt="Restaurant app" text="HungArray" url="https://github.com/cdvincent/hungArray" />
                 <ProjectImg src={require("./stout-beer.jpg")} alt="Brewery finding app" text="BrewFinder" url="https://github.com/cdvincent/BrewFinder" />

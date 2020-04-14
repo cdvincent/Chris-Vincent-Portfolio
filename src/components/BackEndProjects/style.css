@@ -82,16 +82,17 @@ img {
   }
 
   .text {
-    font-size: 7px;
+    font-size: 10px;
+    max-width: 70px;
   }
 
   .learnMore {
     position: relative;
-    top: -20px;
+    top: 5px;
     left: 0;
-    width: 75px;
-    height: 50px;
-    font-size: 7px;
-    opacity: 0;
+    width: 70px;
+    line-height: 5px;
+    font-size: 8px;
+    margin-left: 2.5px;
   }
 }
