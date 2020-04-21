@@ -23,7 +23,7 @@ function AllProjects () {
                 <ProjectImg src={require("./hungarray2.png")} alt="Restaurant app" text="HungArray" url="https://github.com/cdvincent/hungArray" />
                 <ProjectImg src={require("./stout-beer.jpg")} alt="Brewery finding app" text="BrewFinder" url="https://github.com/cdvincent/BrewFinder" />
                 <ProjectImg src={require("./greenRupee.png")} alt="Number Game" text="Rupee Game" url="https://github.com/cdvincent/Rupee-Game" />
-                {/* <ProjectImg src={require("./catGif.gif")} alt="Gifphy project" text="Gif Me Some Gifs!" url="https://github.com/cdvincent/Gif-Me-Some-Gifs" /> */}
+                <ProjectImg src={require("./catGif.gif")} alt="Gifphy project" text="Gif Me Some Gifs!" url="https://github.com/cdvincent/Gif-Me-Some-Gifs" />
                 <ProjectImg src={require("./abc.png")} alt="Guess the letter game" text="Guess the letter" url="https://github.com/cdvincent/Guess-The-Letter" />
                 <ProjectImg src={require("./burger.jpg")} alt="Burger app" text="Eat-Da-Burger" url="https://github.com/cdvincent/burger" />
                 <ProjectImg src={require("./friends.jpg")} alt="FriendFinder app" text="FriendFinder" url="https://github.com/cdvincent/FriendFinder" />
