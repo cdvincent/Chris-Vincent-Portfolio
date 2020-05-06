@@ -8,6 +8,12 @@
     height: 200px;
 }
 
+.socials:hover {
+    border-radius: 10px;
+    transform: rotate(360deg) scale(1.25);
+    transition: transform 1s
+}
+
 @media screen and (max-height: 550px) {
     .socials {
       height: 100px;
