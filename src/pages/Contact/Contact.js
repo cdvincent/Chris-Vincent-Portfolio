@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
 import Icons from "../../components/Icons/Icons";
-import { motion } from "framer-motion";
 
 const pageVariants = {
     initial: {
@@ -23,14 +22,14 @@ class Contact extends Component {
             <Navbar 
             homeClass="nav-link" aboutClass="nav-link" projectsClass="nav-link"
             contactClass="nav-link active"/>
-            <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
+            <div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                     <h3 className="pageHead">Contact Me</h3>
                     <div className="hr pageHr"></div>
                     <p className="contactMe">Please contact me if you would like to work together!</p>
                 <div className="container">
                     <Icons />
                 </div>
-            </motion.div>
+            </div>
           </div>
         )
     };

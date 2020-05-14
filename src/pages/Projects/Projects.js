@@ -5,7 +5,6 @@ import AllProjects from "../../components/AllProjects/AllProjects";
 import FrontEndProjects from "../../components/FrontEndProjects/FrontEndProjects";
 import BackEndProjects from "../../components/BackEndProjects/BackEndProjects";
 import ReactProjects from "../../components/ReactProjects/ReactProjects";
-import { motion } from "framer-motion";
 
 const pageVariants = {
     initial: {
@@ -69,7 +68,7 @@ class Projects extends Component {
             <Navbar 
             homeClass="nav-link" aboutClass="nav-link" projectsClass="nav-link active"
             contactClass="nav-link"/>
-            <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
+            <div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                     <h3 className="pageHead">My Projects</h3>
                     <div className="hr pageHr"></div>
                     <div className="container">
@@ -103,7 +102,7 @@ class Projects extends Component {
 
                         </div>
                 </div>
-            </motion.div>
+            </div>
             </div>
         )
     };

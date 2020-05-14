@@ -55,6 +55,8 @@ img {
 
 .projectImg {
   float: left;
+  animation: 1.5s fadein .5s forwards;
+  opacity: 0;
 }
 
   

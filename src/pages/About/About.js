@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Navbar from "../../components/Navbar/Navbar";
-import { motion } from "framer-motion";
 
 const pageVariants = {
     initial: {
@@ -25,7 +24,7 @@ class About extends Component {
             <Navbar 
             homeClass="nav-link" aboutClass="nav-link active" projectsClass="nav-link"
             contactClass="nav-link"/>
-            <motion.div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
+            <div className="page" initial="initial" animate="in" exit="out" variants={pageVariants}>
                     <h3 className="pageHead">About Me</h3>
                     <div className="hr pageHr"></div>
                 <div className="container">
@@ -38,7 +37,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
-            </motion.div>
+            </div>
             </div>
         )
     };
